@@ -28,23 +28,21 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 ┗━━━━━━━━⬣
 
 ┏━━⊜ *< downloade Commnds />*
-┃⋄ .capcut
-┃⋄ .facebook3
-┃⋄ .insta
-┃⋄ .mp4
-┃⋄ .snapsave
-┃⋄ .song
-┃⋄ .tiktok2
+┃⋄ .fb
+┃⋄ .ig
+┃⋄ .ytmp4
+┃⋄ .ytmp3
+┃⋄ .play
+┃⋄ .tiktok
 ┃⋄ .twitter
 ┃⋄ .video
-┃⋄ .youtube
-┃⋄ .ytmp4
+┃⋄ .yts
 ┗━━━━━━━━⬣
 
 `.trim())
 
 handler.help = ['allmenu']
 handler.tags = ['main']
-handler.command = ['list', 'menua'] 
+handler.command = ['list', 'help'] 
 
 export default handler

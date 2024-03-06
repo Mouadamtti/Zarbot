@@ -12,17 +12,66 @@ global.botnumber = ""
 global.owner = [
   ['212717457920', 'bobiza', true],
 
-  ['212717457920','bobiza', true],
-  ['212717457920'],
-  ['212717457920']
+  ['212630886351','zarbot', true],
+  ['212630886351'],
+  ['212630886351']
 ];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
+global.suittag = ['212630886351'];
+global.prems = ['212630886351'];
 
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
+global.packname = 'zar bot';
+global.author = zabot';
+global.wm = 'zarbotlet handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems })  => m.reply(`
+
+┏━━⊜  _*< Bot Commnds />*_
+┃⋄ .alive
+┃⋄ .jadibot
+┃⋄ .serbor
+┃⋄ .qr
+┃⋄ .getcode
+┃⋄ .menu
+┃⋄ .owner
+┃⋄ .ping
+┃⋄ .runtime
+┃⋄ .script
+┃⋄ .rentbot
+┗━━━━━━━━⬣
+┏━━⊜ *< Premium Commnds />*_
+┃⋄ .apk
+┃⋄ .apk2
+┃⋄ .uptodown
+┗━━━━━━━━⬣
+
+┏━━.*<Ai Commnds/>*
+┃⋄ .aibobiza
+┃⋄ .aipilot
+┃⋄ .bardai
+┃⋄ .bardi
+┃⋄ .hd
+┗━━━━━━━━⬣
+
+┏━━⊜ *< downloade Commnds />*
+┃⋄ .capcut
+┃⋄ .facebook3
+┃⋄ .insta
+┃⋄ .mp4
+┃⋄ .snapsave
+┃⋄ .song
+┃⋄ .tiktok2
+┃⋄ .twitter
+┃⋄ .video
+┃⋄ .youtube
+┃⋄ .ytmp4
+┗━━━━━━━━⬣
+
+`.trim())
+
+handler.help = ['allmenu']
+handler.tags = ['main']
+handler.command = ['list', 'menua'] 
+
+export default handlera';
 global.titulowm = 'bobiza';
 global.titulowm2 = `bobiza`
 global.igfg = 'bobiza';

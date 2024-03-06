@@ -21,7 +21,7 @@ let tags = {
   'uploader':'‎‎ رفع الملفات‎',
 }
 const defaultMenu = {
-  before: `السلام عليكم 👋. 
+  before: `*Hello* 👋. 
 
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
@@ -138,8 +138,8 @@ contextInfo: {
 externalAdReply: {
 title: 'ZAR BOT ♥',
 body: "أول بوت واتساب في العالم العربي 💖",
-thumbnailUrl: 'https://telegra.ph/file/2829c7653514416d207e2.jpg',
-sourceUrl: 'https://instagram.com/noureddine_ouafy',
+thumbnailUrl: 'https://file.io/JuAtNxIh50S2',
+sourceUrl: 'https://www.instagram.com/_mouad_ad_',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
